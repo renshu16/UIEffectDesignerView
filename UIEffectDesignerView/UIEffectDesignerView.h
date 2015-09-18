@@ -39,4 +39,7 @@
 -(instancetype)initWithFile:(NSString*)fileName;
 +(instancetype)effectWithFile:(NSString*)fileName;
 
+//stop the animation smoothly
+-(void)setEmitterCellHidden:(BOOL)hidden;
+
 @end

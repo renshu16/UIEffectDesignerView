@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0777FFBA1BAC561800245E4A /* chatcell.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB41BAC561800245E4A /* chatcell.ped */; };
+		0777FFBB1BAC561800245E4A /* chatcell2.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB51BAC561800245E4A /* chatcell2.ped */; };
+		0777FFBC1BAC561800245E4A /* fireball.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB61BAC561800245E4A /* fireball.ped */; };
+		0777FFBD1BAC561800245E4A /* redorange.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB71BAC561800245E4A /* redorange.ped */; };
+		0777FFBE1BAC561800245E4A /* snowfall.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB81BAC561800245E4A /* snowfall.ped */; };
+		0777FFBF1BAC561800245E4A /* yellowstar.ped in Resources */ = {isa = PBXBuildFile; fileRef = 0777FFB91BAC561800245E4A /* yellowstar.ped */; };
+		0777FFC51BAC572A00245E4A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777FFC21BAC572A00245E4A /* NSData+Base64.m */; };
+		0777FFC61BAC572A00245E4A /* UIEffectDesignerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777FFC41BAC572A00245E4A /* UIEffectDesignerView.m */; };
 		9CC50D9E16ED31F300766EA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC50D9D16ED31F300766EA8 /* UIKit.framework */; };
 		9CC50DA016ED31F300766EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC50D9F16ED31F300766EA8 /* Foundation.framework */; };
 		9CC50DA216ED31F300766EA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC50DA116ED31F300766EA8 /* CoreGraphics.framework */; };
@@ -18,13 +26,20 @@
 		9CC50DB416ED31F400766EA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC50DB316ED31F400766EA8 /* Default-568h@2x.png */; };
 		9CC50DB716ED31F400766EA8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC50DB516ED31F400766EA8 /* MainStoryboard.storyboard */; };
 		9CC50DBA16ED31F400766EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC50DB916ED31F400766EA8 /* ViewController.m */; };
-		9CC50DC316ED325800766EA8 /* UIEffectDesignerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC50DC216ED325800766EA8 /* UIEffectDesignerView.m */; };
 		9CC50DC516ED344B00766EA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC50DC416ED344B00766EA8 /* QuartzCore.framework */; };
-		9CC50DC816ED36B500766EA8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC50DC716ED36B500766EA8 /* NSData+Base64.m */; };
-		9CF60C6516EFDC9600E590D0 /* redorange.ped in Resources */ = {isa = PBXBuildFile; fileRef = 9CF60C6416EFDC9600E590D0 /* redorange.ped */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0777FFB41BAC561800245E4A /* chatcell.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chatcell.ped; sourceTree = "<group>"; };
+		0777FFB51BAC561800245E4A /* chatcell2.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chatcell2.ped; sourceTree = "<group>"; };
+		0777FFB61BAC561800245E4A /* fireball.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fireball.ped; sourceTree = "<group>"; };
+		0777FFB71BAC561800245E4A /* redorange.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = redorange.ped; sourceTree = "<group>"; };
+		0777FFB81BAC561800245E4A /* snowfall.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snowfall.ped; sourceTree = "<group>"; };
+		0777FFB91BAC561800245E4A /* yellowstar.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yellowstar.ped; sourceTree = "<group>"; };
+		0777FFC11BAC572A00245E4A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0777FFC21BAC572A00245E4A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		0777FFC31BAC572A00245E4A /* UIEffectDesignerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEffectDesignerView.h; sourceTree = "<group>"; };
+		0777FFC41BAC572A00245E4A /* UIEffectDesignerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEffectDesignerView.m; sourceTree = "<group>"; };
 		9CC50D9A16ED31F300766EA8 /* EffectDesignerDemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectDesignerDemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC50D9D16ED31F300766EA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CC50D9F16ED31F300766EA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,12 +56,7 @@
 		9CC50DB616ED31F400766EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9CC50DB816ED31F400766EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CC50DB916ED31F400766EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9CC50DC116ED325800766EA8 /* UIEffectDesignerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEffectDesignerView.h; sourceTree = "<group>"; };
-		9CC50DC216ED325800766EA8 /* UIEffectDesignerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEffectDesignerView.m; sourceTree = "<group>"; };
 		9CC50DC416ED344B00766EA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9CC50DC616ED36B500766EA8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		9CC50DC716ED36B500766EA8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		9CF60C6416EFDC9600E590D0 /* redorange.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = redorange.ped; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +74,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0777FFB31BAC561800245E4A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0777FFB41BAC561800245E4A /* chatcell.ped */,
+				0777FFB51BAC561800245E4A /* chatcell2.ped */,
+				0777FFB61BAC561800245E4A /* fireball.ped */,
+				0777FFB71BAC561800245E4A /* redorange.ped */,
+				0777FFB81BAC561800245E4A /* snowfall.ped */,
+				0777FFB91BAC561800245E4A /* yellowstar.ped */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0777FFC01BAC572A00245E4A /* UIEffectDesignerView */ = {
+			isa = PBXGroup;
+			children = (
+				0777FFC11BAC572A00245E4A /* NSData+Base64.h */,
+				0777FFC21BAC572A00245E4A /* NSData+Base64.m */,
+				0777FFC31BAC572A00245E4A /* UIEffectDesignerView.h */,
+				0777FFC41BAC572A00245E4A /* UIEffectDesignerView.m */,
+			);
+			name = UIEffectDesignerView;
+			path = ../../UIEffectDesignerView;
+			sourceTree = "<group>";
+		};
 		9CC50D9116ED31F300766EA8 = {
 			isa = PBXGroup;
 			children = (
-				9CC50DC016ED323C00766EA8 /* UIEffectDesignerView */,
 				9CC50DA316ED31F300766EA8 /* EffectDesignerDemo_iOS */,
 				9CC50D9C16ED31F300766EA8 /* Frameworks */,
 				9CC50D9B16ED31F300766EA8 /* Products */,
@@ -96,7 +130,8 @@
 		9CC50DA316ED31F300766EA8 /* EffectDesignerDemo_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9CF60C6416EFDC9600E590D0 /* redorange.ped */,
+				0777FFC01BAC572A00245E4A /* UIEffectDesignerView */,
+				0777FFB31BAC561800245E4A /* Resource */,
 				9CC50DAC16ED31F300766EA8 /* AppDelegate.h */,
 				9CC50DAD16ED31F300766EA8 /* AppDelegate.m */,
 				9CC50DB516ED31F400766EA8 /* MainStoryboard.storyboard */,
@@ -119,18 +154,6 @@
 				9CC50DB316ED31F400766EA8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9CC50DC016ED323C00766EA8 /* UIEffectDesignerView */ = {
-			isa = PBXGroup;
-			children = (
-				9CC50DC616ED36B500766EA8 /* NSData+Base64.h */,
-				9CC50DC716ED36B500766EA8 /* NSData+Base64.m */,
-				9CC50DC116ED325800766EA8 /* UIEffectDesignerView.h */,
-				9CC50DC216ED325800766EA8 /* UIEffectDesignerView.m */,
-			);
-			name = UIEffectDesignerView;
-			path = ../UIEffectDesignerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,11 +208,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC50DA816ED31F300766EA8 /* InfoPlist.strings in Resources */,
+				0777FFBD1BAC561800245E4A /* redorange.ped in Resources */,
 				9CC50DB016ED31F400766EA8 /* Default.png in Resources */,
+				0777FFBF1BAC561800245E4A /* yellowstar.ped in Resources */,
+				0777FFBE1BAC561800245E4A /* snowfall.ped in Resources */,
 				9CC50DB216ED31F400766EA8 /* Default@2x.png in Resources */,
 				9CC50DB416ED31F400766EA8 /* Default-568h@2x.png in Resources */,
 				9CC50DB716ED31F400766EA8 /* MainStoryboard.storyboard in Resources */,
-				9CF60C6516EFDC9600E590D0 /* redorange.ped in Resources */,
+				0777FFBB1BAC561800245E4A /* chatcell2.ped in Resources */,
+				0777FFBC1BAC561800245E4A /* fireball.ped in Resources */,
+				0777FFBA1BAC561800245E4A /* chatcell.ped in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,10 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC50DAA16ED31F300766EA8 /* main.m in Sources */,
+				0777FFC51BAC572A00245E4A /* NSData+Base64.m in Sources */,
 				9CC50DAE16ED31F400766EA8 /* AppDelegate.m in Sources */,
+				0777FFC61BAC572A00245E4A /* UIEffectDesignerView.m in Sources */,
 				9CC50DBA16ED31F400766EA8 /* ViewController.m in Sources */,
-				9CC50DC316ED325800766EA8 /* UIEffectDesignerView.m in Sources */,
-				9CC50DC816ED36B500766EA8 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

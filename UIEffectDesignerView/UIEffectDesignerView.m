@@ -114,7 +114,7 @@ static float kFileFormatVersionExpected = 0.1;
         //source: http://stackoverflow.com/a/15242701/208205
         NSUInteger red, green, blue;
         sscanf([effect[@"color"] UTF8String], "#%02X%02X%02X", &red, &green, &blue);
-        UIColor* color = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:[effect[@"alpha"] floatValue]];
+        UIColor* color = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:[effect[@"alpha"] floatValue]];//
 #else
         unsigned int red, green, blue;
         sscanf([effect[@"color"] UTF8String], "#%02X%02X%02X", &red, &green, &blue);
@@ -159,6 +159,8 @@ static float kFileFormatVersionExpected = 0.1;
         
         //add the cell to the emitter layer
         self.emitter.emitterCells = @[emitterCell];
+        // add MediaTime in order to control animation's life cycle
+        self.emitter.beginTime = CACurrentMediaTime();
         
 #pragma mark - OSX layer setup
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
@@ -207,5 +209,14 @@ static float kFileFormatVersionExpected = 0.1;
     [self setFrameOrigin:NSMakePoint(self.frame.origin.x, ((NSView*)self.superview).frame.size.height - self.frame.origin.y - self.frame.size.height)];
 }
 #endif
+
+-(void)setEmitterCellHidden:(BOOL)hidden
+{
+    if (!hidden) {
+        self.emitter.lifetime = 1.0;
+    }else{
+        self.emitter.lifetime = 0.0;
+    }
+}
 
 @end
